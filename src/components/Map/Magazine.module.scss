@@ -1,0 +1,110 @@
+.block {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+
+}
+
+.ss {
+    border: 2px solid rgb(0, 136, 136);
+    padding: 30px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+
+    .nash {
+        color: #0000008e;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        width: 750px;
+        font-size: 28px;
+        letter-spacing: 2px;
+h1{
+    color: rgb(0, 136, 136);
+
+}
+
+    }
+
+    img {
+        width: 900px;
+    }
+}
+
+
+
+.form {
+    border: 2px solid rgb(0, 136, 136);
+border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    h1{
+        color: rgb(0, 136, 136);
+    font-weight: 400;
+    }
+}
+.chek{
+   margin-top: 10px;
+   margin-left: 1;
+}
+.footer {
+    font-size: 40px;
+    color: #00000066;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+.form h2 {
+    color: #0000005b;
+    font-weight: 400;
+}
+
+.form ::placeholder {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.form button {
+    border-radius: 10px;
+    background-color: rgb(0, 136, 136);
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    width: 170px;
+    height: 45px;
+    border: none;
+    animation: c 2s ease-in-out infinite;
+    position: relative;
+    top: 0;
+
+}
+@keyframes c {
+    25% {
+        margin-right: 0rem;
+    }
+
+    50% {
+        margin-left: 2rem;
+    }
+
+    100% {
+        margin-right: 2rem;
+    }
+
+}
+.input {
+    width: 700px;
+    border-radius: 10PX;
+    height: 55px;
+border: none;
+background-color: rgb(242, 242, 242);
+}

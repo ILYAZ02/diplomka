@@ -1,0 +1,120 @@
+[
+    {
+        "name": "ПЛАТОК ОРГАНЗА",
+        "id": "1",
+        "price": "3499 с",
+        "image":"./image/P-ORGANZA.webp"
+    },
+    {
+        "name": "ПЛАТОК ШИФОН",
+        "id": "2",
+        "price": "6900 с",
+        "image":"./image/platok shifon.webp"
+    },
+    {
+        "name": "ПЛАТОК ДИЛАНА",
+        "id": "3",
+        "price": "2700 с",
+        "image":"./image/P-DJAVEL.webp"
+    },
+    {
+        "name": "ПЛАТОК С УЗОРАМИ",
+        "id": "4",
+        "price": "6000 с",
+        "image":"./image/p-uzor.webp"
+    },{
+        "name": "ПАЛАНТИН АТЛАС",
+        "id": "5",
+        "price": "1550 с",
+        "image":"./image/palantin-atlas.webp"
+    },{
+        "name": "ПАЛАНТИН СТРЕЙЧ",
+        "id": "6",
+        "price": "10 900 с",
+        "image":"./image/palantin-stre4.webp"
+    },{
+        "name": "ПАЛАНТИН ШИФОНОВЫЙ",
+        "id": "7",
+        "price": "6300 с",
+        "image":"./image/palantin-shifonovyi.webp"
+    },{
+        "name": "ПАЛАНТИН ТРИКОТАЖ",
+        "id": "8",
+        "price": "7515 с",
+        "image":"./image/palantin-trikotaj.webp"
+    },{
+        "name": "ТЮРБАН ТРАНСФОРМЕР",
+        "id": "9",
+        "price": "5999 с",
+        "image":"./image/yurban-transformer.webp"
+    },
+    {
+        "name": "ТЮРБАН ПАЛАНТИН",
+        "id": "10",
+        "price": "3915 с",
+        "image":"./image/yurban-zavyska.webp"
+    },
+    {
+        "name": "ТЮРБАН ДВОЙКА",
+        "id": "11",
+        "price": "5499 с",
+        "image":"./image/yurban-dvoika.webp"
+    },
+    {
+        "name": "Платок «Care»",
+        "id": "19",
+        "price": "350 с",
+        "image":"./image/platok-emiliya-scaled.webp"
+    },
+    {
+        "name": "ТЮРБАН ТРИКОТАЖ",
+        "id": "12",
+        "price": "9999 с",
+        "image":"./image/YURBAN-1.WEBP"
+    },
+    {
+        "name": "ПОДХИДЖАБНИК",
+        "id": "13",
+        "price": "490 с",
+        "image":"./image/akses-podhidjab.webp"
+    },
+    {
+        "name": "БОНИ НА ЗАВЯЗКАХ",
+        "id": "14",
+        "price": "390 с",
+        "image":"./image/boni-na-zavyazkah-pryamye-8-scaled.webp"
+    },
+    {
+        "name": "КАПРО",
+        "id": "15",
+        "price": "400 с",
+        "image":"./image/kapro-5.webp"
+    },
+    {
+        "name": "Балаклава «Калифорния»",
+        "id": "16",
+        "price": "690 с",
+        "image":"./image/balaklava-kaliforniya-13.webp"
+    },
+    {
+        "name": "Тюрбан платок",
+        "id": "17",
+        "price": "690 с",
+        "image":"./image/tyurban.webp"
+    },
+    {
+        "name": "Платок «Эмилия»",
+        "id": "20",
+        "price": "490 с",
+        "image":"./image/platok-emilia.webp"
+    },
+  
+    {
+        
+
+        "name": "тюрбан платок",
+        "id": "18",
+        "price": "690 с",
+        "image":"./image/tyurban-platok.webp"
+    }
+]    

@@ -1,0 +1,26 @@
+.tovar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  padding-top: 2rem;
+   h1{
+    font-weight: 500;
+    font-size: 30px;
+    color: rgb(0, 136, 136);
+
+   } 
+   input{
+      width: 250px;
+      height: 50px;
+      border-radius: 15px;
+      background-color: rgb(238, 238, 234);
+      border: none;
+      padding-left: 15px;
+      &:focus{
+         width: 280px;
+         transition: 1s;
+        
+     }
+    
+   }
+}

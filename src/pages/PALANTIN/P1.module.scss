@@ -1,0 +1,183 @@
+.block {
+    padding: 7rem 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.price {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.block h5 {
+    font-size: 40px;
+    color: rgb(0, 136, 136);
+
+}
+
+.blockk {
+    p {
+        font-size: 20px;
+    }
+}
+
+.razmery {
+    display: flex;
+    gap: 10px;
+
+    button {
+        width: 60px;
+        height: 40px;
+        border: none;
+    }
+}
+
+.razmer {
+    p {
+        padding-top: 10px;
+        font-size: 20px;
+    }
+}
+
+.block1 {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btn {
+    display: flex;
+    gap: 15px;
+
+    img {
+        border-radius: 10px;
+        width: 110px;
+    }
+}
+
+
+.dos {
+
+    p {
+        font-size: 20px;
+        color: #0000007b;
+        width: 250px;
+        font-weight: 600;
+    }
+}
+
+.btn_k {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+
+    button {
+        width: 450px;
+        height: 40px;
+        border: none;
+        background-color: rgb(0, 136, 136);
+        color: aliceblue;
+        font-size: 20px;
+        border-radius: 10px;
+       
+    }
+}
+
+
+
+
+.cambion{
+    display: flex;
+}
+
+.rescera{
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+
+  
+
+  .inp input {
+    width: 1000px;
+    height: 50px;
+    font-size: 30px;
+   
+  }
+  
+ 
+  
+
+  .form {
+    border: 2px solid rgb(0, 136, 136);
+border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    justify-content: start;
+    gap: 3rem;
+  
+ 
+}
+.chek{
+    margin-top: 30px;
+   font-size: 30px;
+  
+ }
+ .cheks{
+  width: 30px;
+  height: 30px;
+  margin-left: -27rem;
+ }
+.footer {
+    font-size: 40px;
+    color: #00000066;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+
+.form h2 {
+    color: #00000085;
+    font-weight: 400;
+    font-size: 45px;
+    margin:30px 0px;
+}
+
+.form ::placeholder {
+    padding: 10px;
+    font-size: 35px;
+}
+
+.form{
+    display: flex;
+    justify-content: start;
+    input{
+        width: 900px;
+       
+    }
+}
+.input {
+   
+    border-radius: 10PX;
+    height: 85px;
+border: none;
+background-color: rgb(242, 242, 242);
+}
+
+.form button {
+    border-radius: 10px;
+    background-color: rgb(0, 136, 136);
+    font-size: 33px;
+    color: rgb(255, 255, 255);
+    width: 370px;
+    height: 75px;
+    margin-top: 1rem;
+    border: none;
+    animation: c 2s ease-in-out infinite;
+    position: relative;
+    top: 0;
+
+}

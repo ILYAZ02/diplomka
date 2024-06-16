@@ -1,0 +1,47 @@
+.content {
+    width: 372px;
+    height: 550px;
+    border: 1PX solid #989898ab;
+    transition: 1s;
+    border-radius: 20px;
+    margin: 14px;
+    :hover {
+        filter: brightness(110%);
+        transition: 1s;
+
+    }
+
+    h2 {
+        
+        padding-top: 16px;
+        font-size: 24px;
+        font-weight: 400;
+    }
+    h5{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    img {
+        border-radius: 20px;
+        width: 370px;
+    }
+
+    &:hover {
+        box-shadow: 5px 5px 10px 10px rgb(210, 206, 206);
+        transition: 1s;
+        transform: scale(1.1);
+    }
+}
+
+.like {
+    position: relative;
+    left: 19.5rem;
+    top: -33rem;
+}
+
+.plus {
+    position: relative;
+    left: 20rem;
+    top: -5.5rem;
+}
