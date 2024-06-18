@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import sun from '../img/day.png'
-import moon from '../img/evining.png'
+import sun from '../img/nnn111-removebg-preview-removebg-preview (1).png'
+import moon from '../img/n2222-removebg-preview-removebg-preview-removebg-preview.png'
 import s from './Header.module.scss'
 import { NavLink } from 'react-router-dom'
 import logo from '../img/Снимок экрана 2024-04-26 160648.png'
@@ -8,6 +8,7 @@ import { FaShoppingCart } from "react-icons/fa";
 import { useTranslation } from 'react-i18next'
 import Cart from './Cart.jsx'
 // import Carta from './Tovar/Carta.jsx'
+
 const Header = ({ handleclick, check }) => {
   let [cartOpen, setCartOpen] = useState(false)
   // const [modalActive, setModalActive] = useState(true)
@@ -36,7 +37,7 @@ const Header = ({ handleclick, check }) => {
           <NavLink to='/tyurbany' className='link3'>
             {t("header.link3")}
           </NavLink>   
-          <NavLink to='/akses' className='link4'>
+          <NavLink to='/' className='link4'>
             {t("header.link4")}
           </NavLink>
           <NavLink to='/magaz' className='link2'>

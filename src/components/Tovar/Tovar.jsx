@@ -23,7 +23,7 @@ const Tovar = ({ item }) => {
           <div> <img src={item.image} alt="" /></div>
           </NavLink>
         <div> <h2>{item.price}</h2></div>
-        <div> <h5>{item.name}</h5></div>
+        <div> <h2>{item.name}</h2></div>
         <div className={s.like} >
         
           <img

@@ -1,6 +1,6 @@
 .block {
     padding-top: 7rem;
-    padding-bottom: 1rem;
+    padding-bottom: 5rem;
 
 }
 
@@ -15,7 +15,6 @@
     margin: 0 auto;
 
     .nash {
-        color: #0000008e;
         display: flex;
         flex-direction: column;
         gap: 10px;
@@ -44,7 +43,6 @@ border-radius: 10px;
     display: flex;
     justify-content: start;
     gap: 3rem;
-    background-color: rgb(255, 255, 255);
     margin-top: 1rem;
     margin-bottom: 1rem;
     h1{
@@ -58,14 +56,12 @@ border-radius: 10px;
 }
 .footer {
     font-size: 40px;
-    color: #00000066;
     font-weight: 300;
     letter-spacing: 1px;
 }
 
 
 .form h2 {
-    color: #0000005b;
     font-weight: 400;
 }
 

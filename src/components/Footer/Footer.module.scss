@@ -1,15 +1,16 @@
 .footer {
     width: 1708px;
     height: 70vh;
-    border-radius: 20px;
-    background: linear-gradient(180deg, #ffffff 0%, rgb(0, 136, 136)100%, );
+    border-radius:0px 0px 20px 20px;
+    background-color:rgb(3, 165, 165);
+    border: 2px solid rgb(3, 165, 165);
+    margin-top: -5rem;
 }
 
 .con {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #ffffff;
     padding-top: 3rem;
 
     h3 {
@@ -39,7 +40,6 @@
     display: flex;
     justify-content: center;
     line-height: 120px; 
-    color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 18px;
 }

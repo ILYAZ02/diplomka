@@ -32,7 +32,8 @@ export default function SimpleAccordion({ gon }) {
 
   return (
     <div className={s.pad}>
-      <Accordion>
+    <div className={s.ss}>
+    <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -51,6 +52,7 @@ export default function SimpleAccordion({ gon }) {
           </Typography>
         </AccordionDetails>
       </Accordion>
+    </div>
 
       <div className={s.com}>
         <div className={s.block}>

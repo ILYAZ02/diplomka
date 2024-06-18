@@ -18,7 +18,7 @@ import p10 from '../../img/t33.webp';
 import likeImg from '../../img/new2.png'
 import likedImg from '../../img/new.png'
 import { NavLink } from 'react-router-dom';
-export default function SimpleAccordion({ gon }) {
+export default function SimpleAccordion() {
   const [counter, setCounter] = useState(0)
   const [counters, setCounters] = useState(0)
   const [counter1, setCounter1] = useState(0)
@@ -53,7 +53,7 @@ export default function SimpleAccordion({ gon }) {
 
       <div className={s.com}>
         <div className={s.block}>
-          <NavLink to="/p1">
+          <NavLink to="/t1">
             <img src={t11} alt="" />
 
           </NavLink>
@@ -70,22 +70,7 @@ export default function SimpleAccordion({ gon }) {
           <h5>Тюрбан трансформер</h5>
         </div>
         <div className={s.block}>
-        <NavLink to="/p2">
-          <img src={p11} alt="" />
-          </NavLink>
-          <div className={s.like} >
-            <img
-              style={{ width: '35px' }}
-              onClick={() => setCounter(counter + 1)}
-              src={counter ? likedImg : likeImg}
-              alt="like" />
-            {counter}
-          </div>
-          <h2>890 c</h2>
-          <h5>Тюрбан (итальянский шифон)</h5>
-        </div>
-        <div className={s.block}>
-        <NavLink to="/p7">
+        <NavLink to="/t3">
           <img src={p10} alt="" />
           </NavLink>
           <div className={s.like} >
@@ -99,9 +84,11 @@ export default function SimpleAccordion({ gon }) {
           <h2>670 c</h2>
           <h5>Тюрбан-косынка</h5>
         </div>
+     
+        
 
         <div className={s.block}>
-        <NavLink to="/p3">
+        <NavLink to="/t4">
           <img src={p2} alt="" />
           </NavLink>
           <div className={s.like} >
@@ -117,7 +104,7 @@ export default function SimpleAccordion({ gon }) {
         </div>
 
         <div className={s.block}>
-        <NavLink to="/p4">
+        <NavLink to="/t5">
           <img src={p3} alt="" />
           </NavLink>
           <div className={s.like} >
@@ -132,7 +119,7 @@ export default function SimpleAccordion({ gon }) {
           <h5>Тюрбан с ободком</h5>
         </div>
         <div className={s.block}>
-        <NavLink to="/p1">
+        <NavLink to="/t6">
           <img src={p7} alt="" />
           </NavLink>
           <div className={s.like} >
@@ -148,7 +135,7 @@ export default function SimpleAccordion({ gon }) {
         </div>
 
         <div className={s.block}>
-        <NavLink to="/p5">
+        <NavLink to="/t7">
           <img className={s.ppp} src={p5} alt="" />
           </NavLink>
           <div className={s.like} >
@@ -162,9 +149,23 @@ export default function SimpleAccordion({ gon }) {
           <h2>830 c</h2>
           <h5> Тюрбан с гипюром</h5>
         </div>
-
         <div className={s.block}>
-        <NavLink to="/p6">
+        <NavLink to="/t2">
+          <img src={p11} alt="" />
+          </NavLink>
+          <div className={s.like} >
+            <img
+              style={{ width: '35px' }}
+              onClick={() => setCounter(counter + 1)}
+              src={counter ? likedImg : likeImg}
+              alt="like" />
+            {counter}
+          </div>
+          <h2>890 c</h2>
+          <h5>Тюрбан (итальянский шифон)</h5>
+        </div>
+        <div className={s.block}>
+        <NavLink to="/t8">
           <img src={p6} alt="" />
           </NavLink>
           <div className={s.like} >
@@ -176,7 +177,7 @@ export default function SimpleAccordion({ gon }) {
             {counter4}
           </div>
           <h2>490 c</h2>
-          <h5>Бони восьмерка</h5>
+          <h5>Тюрбан восьмерка</h5>
         </div>
    
 

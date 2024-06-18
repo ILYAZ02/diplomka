@@ -17,6 +17,14 @@ import P4 from '../src/pages/PALANTIN/P4'
 import P5 from '../src/pages/PALANTIN/P5'
 import P6 from '../src/pages/PALANTIN/P6'
 import P7 from '../src/pages/PALANTIN/P7'
+import T1 from '../src/pages/TYURBAN/T1'
+import T2 from '../src/pages/TYURBAN/T2'
+import T3 from '../src/pages/TYURBAN/T3'
+import T4 from '../src/pages/TYURBAN/T4'
+import T5 from '../src/pages/TYURBAN/T5'
+import T6 from '../src/pages/TYURBAN/T6'
+import T7 from '../src/pages/TYURBAN/T7'
+import T8 from '../src/pages/TYURBAN/T8'
 import './i18n'
 
 function App() {
@@ -38,26 +46,9 @@ function App() {
     fetchData()
   },[])
 
-  const [gon, setGon] = useState([])
-  useEffect(() => {
-    async function fetchData() {
-      const resp = await fetch('http://localhost:3000/girl.json')
-      const data = await resp.json()
-      setGon(data)
-    }
-    fetchData()
-  },[])
 
-  const [mon, setMon] = useState([])
-  useEffect(() => {
-    
-    async function fetchData() {
-      const resp = await fetch('http://localhost:3000/man.json')
-      const data = await resp.json()
-      setMon(data)
-    }
-    fetchData()
-  },[])
+
+
 
   console.log(con)
   return (
@@ -84,6 +75,16 @@ function App() {
           <Route path='/p5' element={<P5/>} />
           <Route path='/p6' element={<P6/>} />
           <Route path='/p7' element={<P7/>} />
+
+          <Route path='/t1' element={<T1 />} />
+          <Route path='/t2' element={<T2 />} />
+          <Route path='/t3' element={<T3 />} />
+          <Route path='/t4' element={<T4 />} />
+          <Route path='/t5' element={<T5 />} />
+          <Route path='/t6' element={<T6 />} />
+          <Route path='/t7' element={<T7 />} />
+          <Route path='/t8' element={<T8 />} />
+
         </Routes>
         <Footer />
         </div>
