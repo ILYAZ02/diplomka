@@ -9,15 +9,14 @@
     background-size: cover;
     width: 1708px;
 
-    p {
+    h2 {
         margin: 0px 45px;
-
-        width: 650px;
+color: #fff;
+        width: 750px;
         font-size: 40px;
         letter-spacing: 0.2em;
         font-family: 'Times New Roman', Times, serif;
         font-weight: 300;
-        color: rgb(255, 255, 255);
     }
 
 
@@ -34,8 +33,7 @@
 }
 
 .b {
-    width: 140px;
-    height: 40px;
+    padding: 5px 20px;
     border-radius: 10px;
     border: none;
     background-color: rgba(255, 0, 0, 0.859);

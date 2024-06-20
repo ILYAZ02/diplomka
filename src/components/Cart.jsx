@@ -1,12 +1,13 @@
 import React from 'react'
-
-const Cart = () => {
-  return (
-    <div>
-      Cart
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempora molestias enim est rem nemo labore delectus eligendi, inventore deserunt reprehenderit nam. Saepe reiciendis in non cumque placeat assumenda! Quod, excepturi, officia sapiente inventore blanditiis voluptatum sint quam sit, animi officiis non velit? Nemo magni, quibusdam reprehenderit temporibus labore quia!
-    </div>
-  )
+import './Cart.css'
+const Modal = ({ active, setActive, children }) => {
+    return (
+        <div className={active ? "modal actives" : "modals"} onClick={() => setActive(false)}>
+            <div className={active ? "modal__contents" : "modals"} onClick={e => e.stopPropagation()}>
+                {children}
+            </div>
+        </div>
+    )
 }
 
-export default Cart
+export default Modal

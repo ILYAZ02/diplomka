@@ -1,31 +1,48 @@
 @import url(./components/Footer/Footer.module.scss);
 
-
-
-body{
-  padding: 0rem 6rem ;
+body {
+  padding: 0rem 6rem;
 }
+
 .sun {
   background-color: white;
-    color: #000000c0;
-    
+  color: #000000c0;
+
+  a {
+    color: #000000;
+  }
+
+
+
+  h6 {
+    color: rgb(0, 0, 0);
+  }
 }
-*{
+
+* {
   font-family: 'Times New Roman', Times, serif;
 }
+
 .night {
   background-color: rgb(0, 0, 0);
   color: #ffffff;
-  border-radius:0px 0px 20px 20px;
+  border-radius: 0px 0px 20px 20px;
+.ss{
+  background-color: #ff0000;
+}
+  a {
+    color: #ffffff;
+  }
 
  
-  
-  
+
+  h6 {
+    color: #ffffff;
+  }
 }
 
-.App{
+.App {
   width: 100%;
   max-width: 1750px;
   margin: 0 auto;
 }
-

@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { useState } from 'react'
-
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -32,28 +31,7 @@ export default function SimpleAccordion({ gon }) {
 
   return (
     <div className={s.pad}>
-    <div className={s.ss}>
-    <Accordion >
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography><h3>Женские палантины</h3> </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            <div className={s.text}>
-              <p>
-                Популярность мусульманского палантина снова становится очевидной. Может, он и вовсе не выходил из моды? Исламский шарф сочетается практически со всеми вещами. Главное, уметь его сочетать. С платьем, пальто, брюками, юбкой. В интернет-магазине «Муслима» вы найдёте мусульманские женские шарфы, которые помогут воплотить любую идею и обеспечат настоящий комфорт. Для женщин это чрезвычайно важно.
-              </p>
-            </div>
-
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-    </div>
-
+   
       <div className={s.com}>
         <div className={s.block}>
           <NavLink to="/p1">
@@ -188,6 +166,28 @@ export default function SimpleAccordion({ gon }) {
 
 
       </div>
+      
+    <Accordion  className={s.ss}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography><h3>Женские палантины</h3> </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <div className={s.text}>
+              <span>
+                Популярность мусульманского палантина снова становится очевидной. Может, он и вовсе не выходил из моды? Исламский шарф сочетается практически со всеми вещами. Главное, уметь его сочетать. С платьем, пальто, брюками, юбкой. В интернет-магазине «Муслима» вы найдёте мусульманские женские шарфы, которые помогут воплотить любую идею и обеспечат настоящий комфорт. Для женщин это чрезвычайно важно.
+              </span>
+            </div>
+
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+    
+
     </div>
   );
 }

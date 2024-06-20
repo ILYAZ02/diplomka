@@ -1,5 +1,4 @@
 import React from 'react'
-
 import s from './Magazine.module.scss'
 import f from '../../img/onaaaaaaaassss.jpg'
 const Magazine = () => {

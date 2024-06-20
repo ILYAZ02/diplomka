@@ -6,7 +6,11 @@ import tel from '../../img/atel.png'
 import jip from '../../img/aaaaa.jpg'
 import { motion } from 'framer-motion'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+
 const Contact = () => {
+  const { t } = useTranslation()
+
   const texAnimation ={
     hidden: {
       x:- 100,
@@ -38,9 +42,9 @@ const Contact = () => {
     
 <div className={s.o_nas}>
 <div className={s.o_nas_info}>
-<p>МУСЛИМА – это качественные материалы, внимание к деталями и ответственность за каждый продукт.</p>
+<h2>{t("o-nas.nas")}</h2>
 <NavLink to='/magaz'>
-  <button className={s.b}><span>О магазине</span> </button>
+  <button className={s.b}><span>{t("o-nas.nas1")}</span> </button>
 </NavLink>
 </div>
 

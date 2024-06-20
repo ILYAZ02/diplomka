@@ -16,19 +16,19 @@ const Carusel = () => {
     <div class="carousel-item active">
       <img src={a} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>ЛЕГКИЙ ПАЛАНТИН</h5>
+        <h6>ЛЕГКИЙ ПАЛАНТИН</h6>
       </div>
     </div>
     <div class="carousel-item">
       <img src={b} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>ОБЬЕМНЫЙ ПАЛАНТИН</h5>
+        <h6>ОБЬЕМНЫЙ ПАЛАНТИН</h6>
       </div>
     </div>
     <div class="carousel-item">
     <img src={c} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h5>ТОНКИЙ ПАЛАНТИН</h5>
+        <h6>ТОНКИЙ ПАЛАНТИН</h6>
       </div>
     </div>
   </div>

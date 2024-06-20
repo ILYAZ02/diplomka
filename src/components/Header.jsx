@@ -10,7 +10,9 @@ import Cart from './Cart.jsx'
 // import Carta from './Tovar/Carta.jsx'
 
 const Header = ({ handleclick, check }) => {
-  let [cartOpen, setCartOpen] = useState(false)
+  const [modalActives, setModalActives] = useState(true)
+
+  // let [cartOpen, setCartOpen] = useState(false)
   // const [modalActive, setModalActive] = useState(true)
 
   const { t, i18n } = useTranslation()
@@ -54,12 +56,10 @@ const Header = ({ handleclick, check }) => {
             <img onClick={handleclick}
               src={check ? sun : moon} alt="" />
           </div>
-          <FaShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)} className={s.korzina} />
-          {cartOpen && (
-            <div className={s.kor}>
-              <Cart />
-            </div>
-          )}
+          <FaShoppingCart onClick={() => setModalActives(true)} className={s.korzina} />
+          <Cart active={modalActives} setActive={setModalActives} className={s.kk}>
+            <h1>КОРЗИНА ПУСТА</h1>
+          </Cart>
 
 
         </div>

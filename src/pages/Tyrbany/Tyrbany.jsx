@@ -31,25 +31,7 @@ export default function SimpleAccordion() {
 
   return (
     <div className={s.pad}>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography><h3>Женские тюрбаны</h3> </Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            <div className={s.text}>
-              <p>
-              Женский тюрбан — очень выразительная вещь, подчёркивающая женственность и яркость образа. В интернет-магазине «Муслима», где можно купить летний женский головной убор тюрбан, представлены самые разные модели.
-              </p>
-            </div>
-
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
+    
 
       <div className={s.com}>
         <div className={s.block}>
@@ -186,6 +168,25 @@ export default function SimpleAccordion() {
 
 
       </div>
+      <Accordion className={s.ss}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+          <Typography><h3>Женские тюрбаны</h3> </Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
+            <div className={s.text}>
+              <p>
+              Женский тюрбан — очень выразительная вещь, подчёркивающая женственность и яркость образа. В интернет-магазине «Муслима», где можно купить летний женский головной убор тюрбан, представлены самые разные модели.
+              </p>
+            </div>
+
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }
