@@ -17,9 +17,9 @@ const Tovar = ({ item }) => {
   return (
     <div>
       <div className={s.content}>
-        <NavLink to={`/params/${item.id}`}>
+        {/* <NavLink to={`/params/${item.id}`}> */}
           <div> <img src={item.image} alt="" /></div>
-        </NavLink>
+        {/* </NavLink> */}
         <div> <h2>{item.price}</h2></div>
         <div> <h2>{item.name}</h2></div>
         <div className={s.like} >

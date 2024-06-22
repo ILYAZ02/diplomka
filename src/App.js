@@ -55,7 +55,7 @@ function App() {
               <Route path='/palantiny' element={<Palantiny />} />
               <Route path='/tyurbany' element={<Tyurbany />} />
               <Route path='/magaz' element={<Magazine />} />
-              <Route path='/params/:id' element={<Params />} />
+              {/* <Route path='/params/:id' element={<Params />} /> */}
               <Route path='/p1' element={<P1 />} />
               <Route path='/p2' element={<P2 />} />
               <Route path='/p3' element={<P3 />} />
