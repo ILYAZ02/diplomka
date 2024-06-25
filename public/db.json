@@ -1,28 +1,30 @@
 [
-    {
-        "name": "ПЛАТОК ОРГАНЗА",
-        "id": "1",
-        "price": "3499 с",
-        "image":"./image/P-ORGANZA.webp"
+  
+   {
+        "name": "ТЮРБАН ТРАНСФОРМЕР",
+        "id": "9",
+        "price": "1890 с",
+        "image":"./image/yurban-transformer.webp"
     },
     {
-        "name": "ПЛАТОК ШИФОН",
-        "id": "2",
-        "price": "6900 с",
-        "image":"./image/platok shifon.webp"
+        "name": "ТЮРБАН ПАЛАНТИН",
+        "id": "10",
+        "price": "1500 с",
+        "image":"./image/yurban-zavyska.webp"
     },
     {
-        "name": "ПЛАТОК ДИЛАНА",
-        "id": "3",
-        "price": "2700 с",
-        "image":"./image/P-DJAVEL.webp"
+        "name": "ТЮРБАН ДВОЙКА",
+        "id": "11",
+        "price": "1700 с",
+        "image":"./image/yurban-dvoika.webp"
     },
     {
-        "name": "ПЛАТОК С УЗОРАМИ",
-        "id": "4",
-        "price": "6000 с",
-        "image":"./image/p-uzor.webp"
-    },{
+        "name": "Тюрбан платок",
+        "id": "17",
+        "price": "1500 с",
+        "image":"./image/tyurban.webp"
+    },
+    {
         "name": "ПАЛАНТИН АТЛАС",
         "id": "5",
         "price": "1550 с",
@@ -30,82 +32,60 @@
     },{
         "name": "ПАЛАНТИН СТРЕЙЧ",
         "id": "6",
-        "price": "10 900 с",
+        "price": "1000 с",
         "image":"./image/palantin-stre4.webp"
     },{
         "name": "ПАЛАНТИН ШИФОНОВЫЙ",
         "id": "7",
-        "price": "6300 с",
+        "price": "2200 с",
         "image":"./image/palantin-shifonovyi.webp"
     },{
         "name": "ПАЛАНТИН ТРИКОТАЖ",
         "id": "8",
-        "price": "7515 с",
+        "price": "2300 с",
         "image":"./image/palantin-trikotaj.webp"
-    },{
-        "name": "ТЮРБАН ТРАНСФОРМЕР",
-        "id": "9",
-        "price": "5999 с",
-        "image":"./image/yurban-transformer.webp"
-    },
-    {
-        "name": "ТЮРБАН ПАЛАНТИН",
-        "id": "10",
-        "price": "3915 с",
-        "image":"./image/yurban-zavyska.webp"
-    },
-    {
-        "name": "ТЮРБАН ДВОЙКА",
-        "id": "11",
-        "price": "5499 с",
-        "image":"./image/yurban-dvoika.webp"
     },
     {
         "name": "Платок «Care»",
         "id": "19",
-        "price": "350 с",
+        "price": "2500 с",
         "image":"./image/platok-emiliya-scaled.webp"
     },
     {
         "name": "ТЮРБАН ТРИКОТАЖ",
         "id": "12",
-        "price": "9999 с",
+        "price": "1700 с",
         "image":"./image/YURBAN-1.WEBP"
     },
     {
         "name": "ПОДХИДЖАБНИК",
         "id": "13",
-        "price": "490 с",
+        "price": "790 с",
         "image":"./image/akses-podhidjab.webp"
     },
     {
         "name": "БОНИ НА ЗАВЯЗКАХ",
         "id": "14",
-        "price": "390 с",
+        "price": "900 с",
         "image":"./image/boni-na-zavyazkah-pryamye-8-scaled.webp"
     },
     {
         "name": "КАПРО",
         "id": "15",
-        "price": "400 с",
+        "price": "890 с",
         "image":"./image/kapro-5.webp"
     },
     {
         "name": "Балаклава «Калифорния»",
         "id": "16",
-        "price": "690 с",
+        "price": "1280 с",
         "image":"./image/balaklava-kaliforniya-13.webp"
     },
-    {
-        "name": "Тюрбан платок",
-        "id": "17",
-        "price": "690 с",
-        "image":"./image/tyurban.webp"
-    },
+   
     {
         "name": "Платок «Эмилия»",
         "id": "20",
-        "price": "490 с",
+        "price": "1350 с",
         "image":"./image/platok-emilia.webp"
     },
   
@@ -114,7 +94,31 @@
 
         "name": "тюрбан платок",
         "id": "18",
-        "price": "690 с",
+        "price": "1400 с",
         "image":"./image/tyurban-platok.webp"
+    },
+    {
+        "name": "ПЛАТОК ОРГАНЗА",
+        "id": "1",
+        "price": "1490 с",
+        "image":"./image/P-ORGANZA.webp"
+    },
+    {
+        "name": "ПЛАТОК ШИФОН",
+        "id": "2",
+        "price": "1390 с",
+        "image":"./image/platok shifon.webp"
+    },
+    {
+        "name": "ПЛАТОК ДИЛАНА",
+        "id": "3",
+        "price": "1500 с",
+        "image":"./image/P-DJAVEL.webp"
+    },
+    {
+        "name": "ПЛАТОК С УЗОРАМИ",
+        "id": "4",
+        "price": "1800 с",
+        "image":"./image/p-uzor.webp"
     }
 ]    

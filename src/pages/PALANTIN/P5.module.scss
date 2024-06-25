@@ -86,16 +86,29 @@
 
 
 
-
 .cambion{
     display: flex;
+    gap: 2.5rem;
+    p{
+        padding: 10px 0px;
+        width: 210px;
+        
+    }
+   
 }
+
 
 .rescera{
     display: flex;
     padding-bottom: 2rem;
-}
+    gap: 1.2rem;
 
+p{
+        padding: 10px 0px;
+        width: 230px;
+        
+    }
+}
 
   
 

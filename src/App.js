@@ -5,6 +5,7 @@ import s from './App.module.scss'
 import Params from './pages/Params/Params';
 import Palantiny from './pages/Girl/Palantiny';
 import Tyurbany from './pages/Tyrbany/Tyrbany'
+import Aksesuary from './pages/Aksess/Aksesuary'
 import Magazine from '../src//components/Map/Magazine'
 import Block from './components/Block/Block';
 import Footer from './components/Footer/Footer';
@@ -25,6 +26,14 @@ import T5 from '../src/pages/TYURBAN/T5'
 import T6 from '../src/pages/TYURBAN/T6'
 import T7 from '../src/pages/TYURBAN/T7'
 import T8 from '../src/pages/TYURBAN/T8'
+import A1 from '../src/pages/AKSES/A1'
+import A2 from '../src/pages/AKSES/A2'
+import A3 from '../src/pages/AKSES/A3'
+import A4 from '../src/pages/AKSES/A4'
+import A5 from '../src/pages/AKSES/A5'
+import A6 from '../src/pages/AKSES/A6'
+import A7 from '../src/pages/AKSES/A7'
+import A8 from '../src/pages/AKSES/A8'
 import './i18n'
 function App() {
   const [check, setchek] = useState(true)
@@ -54,6 +63,7 @@ function App() {
               <Route path='/' element={<Block con={con} />} />
               <Route path='/palantiny' element={<Palantiny />} />
               <Route path='/tyurbany' element={<Tyurbany />} />
+              <Route path='/akses' element={<Aksesuary />} />
               <Route path='/magaz' element={<Magazine />} />
               {/* <Route path='/params/:id' element={<Params />} /> */}
               <Route path='/p1' element={<P1 />} />
@@ -71,6 +81,15 @@ function App() {
               <Route path='/t6' element={<T6 />} />
               <Route path='/t7' element={<T7 />} />
               <Route path='/t8' element={<T8 />} />
+
+              <Route path='/a1' element={<A1 />} />
+              <Route path='/a2' element={<A2 />} />
+              <Route path='/a3' element={<A3 />} />
+              <Route path='/a4' element={<A4 />} />
+              <Route path='/a5' element={<A5 />} />
+              <Route path='/a6' element={<A6 />} />
+              <Route path='/a7' element={<A7 />} />
+              <Route path='/a8' element={<A8 />} />
             </Routes>
             <Footer />
           </div>

@@ -3,7 +3,11 @@ import a from '../../img/content-img(93).png'
 import b from '../../img/content-img(95).png'
 import c from '../../img/content-img(98).png'
 import s from '../../components//Carusel/Carusel.module.scss'
+import { useTranslation } from 'react-i18next'
+
 const Carusel = () => {
+  const { t } = useTranslation()
+
   return (
     <div className={s.aa}>
       <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -16,19 +20,19 @@ const Carusel = () => {
     <div class="carousel-item active">
       <img src={a} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h6>ЛЕГКИЙ ПАЛАНТИН</h6>
+        <h4>  {t("c.c1")}</h4>
       </div>
     </div>
     <div class="carousel-item">
       <img src={b} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h6>ОБЬЕМНЫЙ ПАЛАНТИН</h6>
+        <h4>  {t("c.c2")}</h4>
       </div>
     </div>
     <div class="carousel-item">
     <img src={c} class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
-        <h6>ТОНКИЙ ПАЛАНТИН</h6>
+        <h4>  {t("c.c3")}</h4>
       </div>
     </div>
   </div>

@@ -13,11 +13,12 @@ import p4 from '../../img/p17.jpg';
 import p5 from '../../img/з6.jpg';
 import p6 from '../../img/p7.jpg';
 import p7 from '../../img/p8.jpg';
-import p8 from '../../img/p9.webp';
 import p10 from '../../img/p10.jpg';
 import likeImg from '../../img/new2.png'
 import likedImg from '../../img/new.png'
 import { NavLink } from 'react-router-dom';
+import { useTranslation } from 'react-i18next'
+
 export default function SimpleAccordion({ gon }) {
   const [counter, setCounter] = useState(0)
   const [counters, setCounters] = useState(0)
@@ -27,12 +28,28 @@ export default function SimpleAccordion({ gon }) {
   const [counter4, setCounter4] = useState(0)
   const [counter5, setCounter5] = useState(0)
   const [counter6, setCounter6] = useState(0)
+  const { t } = useTranslation()
 
 
   return (
     <div className={s.pad}>
    
       <div className={s.com}>
+      <div className={s.block}>
+        <NavLink to="/p7">
+          <img src={p10} alt="" />
+          </NavLink>
+          <div className={s.like} >
+            <img
+              style={{ width: '35px' }}
+              onClick={() => setCounter5(counter5 + 1)}
+              src={counter5 ? likedImg : likeImg}
+              alt="like" />
+            {counter5}
+          </div>
+          <h2>1700 c</h2>
+          <h5>ПАЛАНТИН С ПЕРЬЯМИ</h5>
+        </div>
         <div className={s.block}>
           <NavLink to="/p1">
             <img src={p4} alt="" />
@@ -65,21 +82,7 @@ export default function SimpleAccordion({ gon }) {
           <h2>1000 c</h2>
           <h5>ПАЛАНТИН ШЕЛК АРМАНИ</h5>
         </div>
-        <div className={s.block}>
-        <NavLink to="/p7">
-          <img src={p10} alt="" />
-          </NavLink>
-          <div className={s.like} >
-            <img
-              style={{ width: '35px' }}
-              onClick={() => setCounter5(counter5 + 1)}
-              src={counter5 ? likedImg : likeImg}
-              alt="like" />
-            {counter5}
-          </div>
-          <h2>1700 c</h2>
-          <h5>ПАЛАНТИН С ПЕРЬЯМИ</h5>
-        </div>
+      
 
         <div className={s.block}>
         <NavLink to="/p3">
@@ -173,13 +176,13 @@ export default function SimpleAccordion({ gon }) {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography><h3>Женские палантины</h3> </Typography>
+          <Typography><h3>{t("j.j3")}</h3> </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <div className={s.text}>
               <span>
-                Популярность мусульманского палантина снова становится очевидной. Может, он и вовсе не выходил из моды? Исламский шарф сочетается практически со всеми вещами. Главное, уметь его сочетать. С платьем, пальто, брюками, юбкой. В интернет-магазине «Муслима» вы найдёте мусульманские женские шарфы, которые помогут воплотить любую идею и обеспечат настоящий комфорт. Для женщин это чрезвычайно важно.
+              {t("j.j4")}
               </span>
             </div>
 

@@ -4,10 +4,12 @@ import w from '../../img/t0.webp'
 import f from '../../img/t04.jpg'
 import q from '../../img/t05.jpg'
 import g from '../../img/t06.jpg'
+import { useTranslation } from 'react-i18next'
 
 import Modal from '../Modal'
 const P1 = () => {
   const [modalActive, setModalActive] = useState(true)
+  const { t } = useTranslation()
 
   const [img, setImg] = useState(q)
   const [text, setText] = useState(750 + ' сом')
@@ -34,7 +36,7 @@ const P1 = () => {
           <h5>Шапка с узлом</h5>
 
           <div className={s.blockk}>
-            <p>Выбрать цвет</p>
+            <p>{t("p.p1")}</p>
             <div className={s.btn}>
               <img width={80} onClick={() => setImg(q)} src={q} alt="" />
               <img width={80} onClick={() => setImg(g)} src={g} alt="" />
@@ -51,7 +53,7 @@ const P1 = () => {
 
           </div>
           <div className={s.razmer}>
-            <p>Размеры</p>
+            <p>{t("p.p2")}</p>
             <div className={s.razmery}>
               <button onClick={() => setText(a)}>L</button>
               <button onClick={() => setText(d)}>XL</button>
@@ -60,28 +62,24 @@ const P1 = () => {
 
             </div>
             <div className={s.price}>
-              <p>Цены:</p>
+              <p>{t("p.p3")}</p>
               <p>{text}</p>
             </div>
             <div className={s.dos}>
               <div className={s.cambion}>
                 <div>
-                  <p>Бесплатная <br />
-                    доставка от 3000 с.</p>
+                  <p>{t("p.p4")}</p>
                 </div>
                 <div>
-                  <p>Доставка по всему<br />
-                    Кыргызстану.</p>
+                  <p>{t("p.p5")}</p>
                 </div>
               </div>
               <div className={s.rescera}>
                 <div>
-                  <p>Гарантия качества<br />
-                    нашей продукции.</p>
+                  <p>{t("p.p6")}</p>
                 </div>
                 <div>
-                  <p>Вы можете заказать наши<br />
-                    товары по оптовым ценам.<br />
+                  <p>{t("p.p7")}<br />
 
                   </p>
                 </div>
@@ -89,8 +87,8 @@ const P1 = () => {
               </div>
             </div>
             <div className={s.btn_k}>
-              <button className={s.a1}>В корзину</button>
-              <button onClick={() => setModalActive(true)}>Заказать в один клик</button>
+              <button className={s.a1}>{t("p.p8")}</button>
+              <button onClick={() => setModalActive(true)}>{t("p.p9")}</button>
             </div>
             <Modal active={modalActive} setActive={setModalActive}>
               <div className={s.form}>

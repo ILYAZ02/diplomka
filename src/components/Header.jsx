@@ -39,7 +39,7 @@ const Header = ({ handleclick, check }) => {
           <NavLink to='/tyurbany' className='link3'>
             {t("header.link3")}
           </NavLink>   
-          <NavLink to='/' className='link4'>
+          <NavLink to='/akses' className='link4'>
             {t("header.link4")}
           </NavLink>
           <NavLink to='/magaz' className='link2'>

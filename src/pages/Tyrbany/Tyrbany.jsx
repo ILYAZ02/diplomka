@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
@@ -27,6 +28,7 @@ export default function SimpleAccordion() {
   const [counter4, setCounter4] = useState(0)
   const [counter5, setCounter5] = useState(0)
   const [counter6, setCounter6] = useState(0)
+  const { t } = useTranslation()
 
 
   return (
@@ -144,7 +146,7 @@ export default function SimpleAccordion() {
             {counter}
           </div>
           <h2>890 c</h2>
-          <h5>Тюрбан (итальянский шифон)</h5>
+          <h5>Тюрбан шифон</h5>
         </div>
         <div className={s.block}>
         <NavLink to="/t8">
@@ -174,13 +176,13 @@ export default function SimpleAccordion() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography><h3>Женские тюрбаны</h3> </Typography>
+          <Typography><h3>{t("j.j1")}</h3> </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
             <div className={s.text}>
               <p>
-              Женский тюрбан — очень выразительная вещь, подчёркивающая женственность и яркость образа. В интернет-магазине «Муслима», где можно купить летний женский головной убор тюрбан, представлены самые разные модели.
+              {t("j.j2")}
               </p>
             </div>
 

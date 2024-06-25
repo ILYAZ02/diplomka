@@ -61,8 +61,9 @@
 .dos {
 
     p {
-        color: #0000007b;
+        font-size: 20px;
         width: 250px;
+        font-weight: 400;
     }
 }
 
@@ -89,15 +90,29 @@
 
 .cambion{
     display: flex;
+    gap: 2.5rem;
+    p{
+        padding: 10px 0px;
+        width: 210px;
+        
+    }
+   
 }
+
 
 .rescera{
     display: flex;
     padding-bottom: 2rem;
+    gap: 1.2rem;
+
+p{
+        padding: 10px 0px;
+        width: 230px;
+        
+    }
 }
 
 
-  
 
   .inp input {
     width: 1000px;
